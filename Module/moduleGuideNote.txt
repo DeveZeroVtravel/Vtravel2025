@@ -1,0 +1,11 @@
+A module folde MUST always contain these 4 files:
+
+   + The main js, this is where the module should be.
+
+   + The demo HTML file (test.html).
+
+   + The CSS file for the HTML Above (test.css).
+
+   + Finally, the note guide to descripe how the module and it syntax funtion.
+
+Thank you for following the guide.

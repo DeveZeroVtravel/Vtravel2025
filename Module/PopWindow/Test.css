@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Button{
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:brown;
+}

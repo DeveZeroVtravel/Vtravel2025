@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/jquery.js"></script>
+    <link rel="stylesheet" href="/Module/popWindow_1.0/test.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="testButton"></div>
+</body>
+<script src="/Module/popWindow_1.0/popWindow.js"></script>
+<script>
+    var myPop=new PopWindow();
+    myPop.init();
+    $("#testButton").on("click",function(){
+        myPop.popNofiThis("loremispum");
+    })
+</script>
+</html>
